@@ -1,8 +1,7 @@
 {
 	"name": "dist-check-action",
-	"version": "0.0.0",
-	"private": true,
-	"description": "TypeScript template action",
+	"version": "0.1.0",
+	"description": "Github action for dist-check",
 	"main": "lib/main.js",
 	"scripts": {
 		"prepare": "husky install",
@@ -16,15 +15,18 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/actions/typescript-action.git"
+		"url": "git+https://github.com/LecrisUT/dist-check-action.git"
 	},
 	"keywords": [
 		"actions",
 		"node",
 		"setup"
 	],
-	"author": "",
-	"license": "MIT",
+	"author": {
+		"name": "Cristian Le",
+		"email": "git@lecris.dev"
+	},
+	"license": "GPL-3.0-or-later",
 	"dependencies": {
 		"@actions/core": "^1.10.0"
 	},
